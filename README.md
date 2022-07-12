@@ -66,3 +66,7 @@ pm.test('response body should have correct property and value', () => {
     pm.expect(responseJson.userId).to.equals(6)
 });
 ```
+
+# SDET Technical Assesment - Nomor 2
+
+[Nomor 2](https://github.com/hafezdeldaffa/sdet-test/tree/master/nomor2)
