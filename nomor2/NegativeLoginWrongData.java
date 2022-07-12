@@ -17,6 +17,8 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+// Negative Case Login With Wrong Data Entered
+
 Mobile.startApplication('E:\\Download\\Programs\\Sample Android App Login Test_v4.0_apkpure.com.apk', true)
 
 Mobile.setText(findTestObject('Object Repository/Application/App/Activity/NegativeLoginWrongData/android.widget.EditText'), 
